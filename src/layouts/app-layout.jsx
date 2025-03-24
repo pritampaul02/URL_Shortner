@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const AppLayout = () => {
     return (
         <div className="flex flex-col items-center">
-            <main className="min-h-screen container px-4 md:px-0">
+            <main className="min-h-screen container px-4 md:px-0 max-w-7xl">
                 <Header />
                 <Outlet />
                 {/* footer  */}
