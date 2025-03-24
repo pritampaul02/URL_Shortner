@@ -9,7 +9,9 @@ import RedirectLink from "./pages/redirect-link";
 import UrlProvider from "./context/context";
 import RequireAuth from "./components/require-auth";
 
-export const BASE_URL = process.env.VITE_BASE_URL;
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
+
+console.log(BASE_URL);
 
 const router = createBrowserRouter([
     {

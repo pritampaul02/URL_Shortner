@@ -20,7 +20,6 @@
     "@tailwindcss/vite": "^4.0.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "dotenv": "^16.4.7",
     "lucide-react": "^0.478.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

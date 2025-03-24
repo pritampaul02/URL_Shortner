@@ -1,5 +1,3 @@
-import "dotenv/config";
-
 import "./index.css";
 
 import { StrictMode } from "react";
